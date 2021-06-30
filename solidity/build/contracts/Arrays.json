@@ -1,0 +1,329 @@
+{
+  "contractName": "Arrays",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/Users/angshumanhalder/Documents/blockchain-tuts/solidity/contracts/Arrays.sol\":\"Arrays\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/angshumanhalder/Documents/blockchain-tuts/solidity/contracts/Arrays.sol\":{\"keccak256\":\"0x1e4df08258341b458aab36c01af123b33cbdb17e6e0ad861fb9f53742fe0e601\",\"urls\":[\"bzz-raw://90bde4aac0d16c899ed312b039356aee5b67b36f8bb5f7fa4ecd7cfd82eb64a1\",\"dweb:/ipfs/QmS52MgDdcMe2Ehqr1LLopCNubNvwNCtdzDyiebrYycRZQ\"]}},\"version\":1}",
+  "bytecode": "0x60806040526040518060400160405280600160ff168152602001600260ff168152506000906002602f9291906040565b50348015603b57600080fd5b5060a2565b82600381019282156071579160200282015b828111156070578251829060ff169055916020019190600101906052565b5b509050607c91906080565b5090565b609f91905b80821115609b5760008160009055506001016085565b5090565b90565b603e8060af6000396000f3fe6080604052600080fdfea265627a7a723158200795692489f1a2bddbf43bc86451694fcc2df28ae97560adc3f5d0ee15ea9b9464736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158200795692489f1a2bddbf43bc86451694fcc2df28ae97560adc3f5d0ee15ea9b9464736f6c63430005100032",
+  "sourceMap": "66:53:0:-;;;88:28;;;;;;;;111:1;88:28;;;;;;114:1;88:28;;;;;;;;;;;;;:::i;:::-;;66:53;8:9:-1;5:2;;;30:1;27;20:12;5:2;66:53:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+  "deployedSourceMap": "66:53:0:-;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract Arrays {\n    int256[3] staticArr = [1, 2];\n}\n",
+  "sourcePath": "/Users/angshumanhalder/Documents/blockchain-tuts/solidity/contracts/Arrays.sol",
+  "ast": {
+    "absolutePath": "/Users/angshumanhalder/Documents/blockchain-tuts/solidity/contracts/Arrays.sol",
+    "exportedSymbols": {
+      "Arrays": [
+        9
+      ]
+    },
+    "id": 10,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 9,
+        "linearizedBaseContracts": [
+          9
+        ],
+        "name": "Arrays",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 8,
+            "name": "staticArr",
+            "nodeType": "VariableDeclaration",
+            "scope": 9,
+            "src": "88:28:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_int256_$3_storage",
+              "typeString": "int256[3]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 2,
+                "name": "int256",
+                "nodeType": "ElementaryTypeName",
+                "src": "88:6:0",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_int256",
+                  "typeString": "int256"
+                }
+              },
+              "id": 4,
+              "length": {
+                "argumentTypes": null,
+                "hexValue": "33",
+                "id": 3,
+                "isConstant": false,
+                "isLValue": false,
+                "isPure": true,
+                "kind": "number",
+                "lValueRequested": false,
+                "nodeType": "Literal",
+                "src": "95:1:0",
+                "subdenomination": null,
+                "typeDescriptions": {
+                  "typeIdentifier": "t_rational_3_by_1",
+                  "typeString": "int_const 3"
+                },
+                "value": "3"
+              },
+              "nodeType": "ArrayTypeName",
+              "src": "88:9:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_int256_$3_storage_ptr",
+                "typeString": "int256[3]"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "components": [
+                {
+                  "argumentTypes": null,
+                  "hexValue": "31",
+                  "id": 5,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "111:1:0",
+                  "subdenomination": null,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_1_by_1",
+                    "typeString": "int_const 1"
+                  },
+                  "value": "1"
+                },
+                {
+                  "argumentTypes": null,
+                  "hexValue": "32",
+                  "id": 6,
+                  "isConstant": false,
+                  "isLValue": false,
+                  "isPure": true,
+                  "kind": "number",
+                  "lValueRequested": false,
+                  "nodeType": "Literal",
+                  "src": "114:1:0",
+                  "subdenomination": null,
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_rational_2_by_1",
+                    "typeString": "int_const 2"
+                  },
+                  "value": "2"
+                }
+              ],
+              "id": 7,
+              "isConstant": false,
+              "isInlineArray": true,
+              "isLValue": false,
+              "isPure": true,
+              "lValueRequested": false,
+              "nodeType": "TupleExpression",
+              "src": "110:6:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_uint8_$2_memory_ptr",
+                "typeString": "uint8[2] memory"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "scope": 10,
+        "src": "66:53:0"
+      }
+    ],
+    "src": "32:88:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/Users/angshumanhalder/Documents/blockchain-tuts/solidity/contracts/Arrays.sol",
+      "exportedSymbols": {
+        "Arrays": [
+          9
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".22",
+            "<",
+            "0.9",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "32:32:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            9
+          ],
+          "name": "Arrays",
+          "scope": 10
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "staticArr",
+              "scope": 9,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "int256[3]",
+              "visibility": "internal"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "type": "int256[3]"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "name": "int256",
+                      "type": "int256"
+                    },
+                    "id": 2,
+                    "name": "ElementaryTypeName",
+                    "src": "88:6:0"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "33",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 3",
+                      "value": "3"
+                    },
+                    "id": 3,
+                    "name": "Literal",
+                    "src": "95:1:0"
+                  }
+                ],
+                "id": 4,
+                "name": "ArrayTypeName",
+                "src": "88:9:0"
+              },
+              {
+                "attributes": {
+                  "argumentTypes": null,
+                  "isConstant": false,
+                  "isInlineArray": true,
+                  "isLValue": false,
+                  "isPure": true,
+                  "lValueRequested": false,
+                  "type": "uint8[2] memory"
+                },
+                "children": [
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "31",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 1",
+                      "value": "1"
+                    },
+                    "id": 5,
+                    "name": "Literal",
+                    "src": "111:1:0"
+                  },
+                  {
+                    "attributes": {
+                      "argumentTypes": null,
+                      "hexvalue": "32",
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "subdenomination": null,
+                      "token": "number",
+                      "type": "int_const 2",
+                      "value": "2"
+                    },
+                    "id": 6,
+                    "name": "Literal",
+                    "src": "114:1:0"
+                  }
+                ],
+                "id": 7,
+                "name": "TupleExpression",
+                "src": "110:6:0"
+              }
+            ],
+            "id": 8,
+            "name": "VariableDeclaration",
+            "src": "88:28:0"
+          }
+        ],
+        "id": 9,
+        "name": "ContractDefinition",
+        "src": "66:53:0"
+      }
+    ],
+    "id": 10,
+    "name": "SourceUnit",
+    "src": "32:88:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-06-30T07:25:19.664Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
